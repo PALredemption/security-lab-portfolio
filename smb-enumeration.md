@@ -25,7 +25,7 @@ Used Nmap to identify SMB services:
 
 Command:
 
-smbclient -L //<TARGET-IP> -N
+smbclient -L //Metasploitable-IP -N
 
 Discovered Shares:
 
