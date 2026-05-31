@@ -18,7 +18,7 @@ The lab was built using VMware on a Lenovo ThinkPad T14 and includes:
 | System | Purpose |
 |----------|----------|
 | pfSense | Firewall / Router |
-| DC1 | Active Directory Domain Controller |
+| Windows Server 2022 (DC1) | Active Directory Domain Controller |
 | Windows 10 Pro | Domain Workstation |
 | Kali Linux | Attack Platform |
 | Metasploitable | Vulnerable Target |
