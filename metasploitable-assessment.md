@@ -30,7 +30,7 @@ The assessment followed a structured approach:
 Performed an Nmap service and operating system scan:
 
 ```bash
-nmap -sV -O 192.168.1.105
+nmap -sV -O metasploitable-IP
 ```
 
 ### Key Findings
@@ -54,7 +54,7 @@ nmap -sV -O 192.168.1.105
 Performed anonymous SMB enumeration:
 
 ```bash
-smbclient -L //192.168.1.105 -N
+smbclient -L //Metasploitable-IP -N
 ```
 
 Discovered shares:
@@ -70,7 +70,7 @@ Discovered shares:
 Successfully connected to the tmp share anonymously:
 
 ```bash
-smbclient //(metasploitable IP)/tmp -N
+smbclient //Metasploitable-IP /tmp -N
 ```
 
 Verified write permissions by uploading a test file.
@@ -89,7 +89,7 @@ Anonymous write access to a network share could allow:
 Connected to the FTP service anonymously:
 
 ```bash
-ftp (metasploitable IP)
+ftp (Metasploitable-IP)
 ```
 
 Anonymous authentication was permitted.
@@ -107,7 +107,7 @@ Discovered a bind shell service listening on TCP port 1524.
 Connected using:
 
 ```bash
-nc (metasploitable IP) 1524
+nc (Metasploitable-IP) 1524
 ```
 
 Successfully obtained a remote root shell:
