@@ -13,17 +13,21 @@ The lab was built using VMware on a Lenovo ThinkPad T14 and includes:
 * Metasploitable Vulnerable Target
 * Sysmon Monitoring
 
-## Network Diagram
+## Network Architecture
 
+```text
 Internet
-|
-pfSense
-|
-VMnet IP
-├── DC1 Domain Controller
+    │
+    ▼
+ pfSense
+    │
+    ▼
+192.168.1.0/24
+├── DC1 (Domain Controller)
 ├── Windows 10 Pro
 ├── Kali Linux
 └── Metasploitable
+```
 
 ## Objectives
 
