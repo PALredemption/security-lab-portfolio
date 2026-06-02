@@ -62,11 +62,3 @@ Reviewed session cookies and application security settings.
 ## Lessons Learned
 
 Web applications trust user-supplied data more than many people realize. Intercepting and modifying requests provides insight into how applications process authentication, sessions, and user input.
-
-## Screenshots
-
-- Burp Intercept
-- Login Request
-- Repeater Testing
-- Session Cookies
-- DVWA Dashboard
