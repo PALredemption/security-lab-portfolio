@@ -18,11 +18,15 @@ Learn web application testing fundamentals by configuring Burp Suite as an inter
 
 ## Lab Architecture
 
+```text
 Kali Linux
-↓
+    │
+    ▼
 Burp Suite
-↓
-DVWA on Metasploitable
+    │
+    ▼
+DCWA on Metasploitable
+```
 
 ## Activities Performed
 
